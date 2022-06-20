@@ -39,6 +39,7 @@ export default function About () {
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis quae deleniti dolore veritatis labore ut, ex molestias impedit consequatur, molestiae, assumenda error officiis commodi obcaecati ipsa quas. Hic, quibusdam!
           </p>
+          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
