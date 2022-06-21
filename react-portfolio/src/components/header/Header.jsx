@@ -7,7 +7,7 @@ import HeaderSocials from './HeaderSocials';
 export default function Header () {
   return (
     <header>
-      <div className="container header__cointainer">
+      <div className="container header__container">
         <h5>Hello I m'</h5>
         <h1>Kenneth Ee</h1>
         <h5 className='text-light'>Blockchain Developer</h5>
