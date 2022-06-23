@@ -1,8 +1,7 @@
 import React from 'react'
+import { BsGithub, BsInstagram, BsLinkedin, BsSpotify, BsTwitter } from 'react-icons/bs'
 import './footer.css'
-import {FaFacebookF} from 'react-icons/fa'
-import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
+
 
 export default function Footer () {
   return (
@@ -20,9 +19,11 @@ export default function Footer () {
       </ul>
 
       <div className="footer__socials">
-        <a href='https://facebook.com'><FaFacebookF /></a>
-        <a href='https://instagram.com'><FiInstagram /></a>
-        <a href='https://twitter.com'><IoLogoTwitter /></a>
+      <a href='https://linkedin.com/in/kenneth-ee-68b718239' target='_blank'><BsLinkedin /></a>
+        <a href='https://github.com/KennyEe55' target='_blank'><BsGithub /></a>
+        <a href='https://twitter.com/kennetheejj' target='_blank'><BsTwitter /></a>
+        <a href='https://open.spotify.com/show/6KHFutuaZQPNquJlk6cVX3?si=0fHeIjTpQ8ap9W5RrKbdCQ&utm_source=copy-link' target='_blank'><BsSpotify /></a>
+        <a href='https://instagram.com/kennetheejunjie' target='_blank'><BsInstagram /></a>
       </div>
 
       <div className="footer__copyright">

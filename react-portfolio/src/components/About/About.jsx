@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/moonbird.png'
 import {FaAward} from 'react-icons/fa'
 import {FaUserFriends} from 'react-icons/fa'
 import {FaFolder} from 'react-icons/fa'
@@ -27,18 +27,17 @@ export default function About () {
             </article>
             <article className='about__card'>
             <FaUserFriends className='about__icon'/>
-            <h5>Clients</h5>
-            <small>200+ clients</small>
+            <h5>NFT Minted</h5>
+            <small>200+ minted</small>
             </article>
             <article className='about__card'>
             <FaFolder className='about__icon'/>
             <h5>Projects</h5>
-            <small>2 main projects</small>
+            <small>2 projects completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto facilis quae deleniti dolore veritatis labore ut, ex molestias impedit consequatur, molestiae, assumenda error officiis commodi obcaecati ipsa quas. Hic, quibusdam!
-          </p>
+          I have been working in the financial service industry for more than 6 years before finding my newfound passion in blockchain technology and web3 development. Would love to contribute to the GameFi space especially to bring financial incentives to gaming to help gamers pursue their passion sustainably while rewarding them for their time and attention towards the game developers they love.          </p>
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
