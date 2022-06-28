@@ -124,7 +124,7 @@ function CTA() {
         providerOptions: {},
         disabledInjectedProvider: false,
       });
-      connectWallet();
+      //connectWallet();
     }
   }, [walletConnected]);
 
